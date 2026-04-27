@@ -6,8 +6,8 @@ const modelData = {
     name: "Claude",
     provider: "Anthropic",
     badge: "Premium long-context model",
-    input: "Custom",
-    output: "Custom",
+    input: "$1.00 - $3.00",
+    output: "$5.00 - $15.00",
     context: "Large context",
     description:
       "Claude models are suitable for long-context reasoning, writing, coding, analysis, and enterprise AI workflows.",
@@ -18,8 +18,8 @@ const modelData = {
     name: "ChatGPT / GPT",
     provider: "OpenAI",
     badge: "Popular general-purpose model",
-    input: "Custom",
-    output: "Custom",
+    input: "$2.00 - $2.50",
+    output: "$8.00 - $10.00",
     context: "Varies by model",
     description:
       "GPT models are suitable for advanced chat, coding, reasoning, multimodal tasks, and production AI applications.",
@@ -30,8 +30,8 @@ const modelData = {
     name: "Gemini",
     provider: "Google",
     badge: "Multimodal AI model",
-    input: "Custom",
-    output: "Custom",
+    input: "$0.30 - $1.25",
+    output: "0$2.50 - $10.00",
     context: "Large context",
     description:
       "Gemini models are suitable for multimodal reasoning, text generation, coding, and high-performance AI workloads.",
@@ -42,9 +42,9 @@ const modelData = {
     name: "DeepSeek",
     provider: "DeepSeek",
     badge: "Cost-efficient reasoning model",
-    input: "$0.14",
-    output: "$0.28",
-    context: "128K",
+    input: "$0.14 - $0.55",
+    output: "$1.10 - $2.19",
+    context: "64K+",
     description:
       "DeepSeek is optimized for cost-efficient reasoning, chat inference, and large-scale API distribution.",
     useCases: ["Low-cost chat", "Reasoning tasks", "Large-scale API usage", "Developer tools"],
@@ -54,8 +54,8 @@ const modelData = {
     name: "Qwen",
     provider: "Alibaba",
     badge: "Multilingual enterprise model",
-    input: "Custom",
-    output: "Custom",
+    input: "$0.40 - $1.20",
+    output: "$1.20 - $6.00",
     context: "Large context",
     description:
       "Qwen models are suitable for multilingual tasks, coding, enterprise AI workloads, and global API use cases.",
@@ -66,8 +66,8 @@ const modelData = {
     name: "MiniMax",
     provider: "MiniMax",
     badge: "Fast chat model",
-    input: "Custom",
-    output: "Custom",
+    input: "$0.30 - $0.60",
+    output: "$1.20 - $2.40",
     context: "Varies by model",
     description:
       "MiniMax models are suitable for high-demand chat applications, global model distribution, and fast response workloads.",
@@ -159,7 +159,7 @@ export default async function ModelPage({
             {model.name} pricing
           </h2>
           <p className="mt-3 text-zinc-400">
-            Prices shown here are sample website pricing. Final rates can be adjusted by volume.
+            Volume pricing is available for teams, developers, and high-usage API customers.
           </p>
         </div>
 
